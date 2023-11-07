@@ -1,8 +1,8 @@
 baseURL = "https://zishu.me"
 languageCode = "en-us"
 title = "子舒的博客"
-theme = "syria"
-paginate = 200
+theme = "1"
+paginate = 20
 hasCJKLanguage = true
 summaryLength = 100
 
@@ -19,6 +19,9 @@ summaryLength = 100
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[permalinks]
+  blog = "/blog/:slug.html/"
+  
 [params]
   title = "zishu.me"
   logo = "https://imgurl.zishu.me/author.png"
@@ -32,8 +35,16 @@ name = "首页"
 link = "/"
 
 [[params.socials]]
-name = "技术"
-link = "/categories/技术/"
+name = "归档"
+link = "/blog/"
+
+[[params.socials]]
+name = "周刊"
+link = "/categories/周刊/"
+
+[[params.socials]]
+name = "实验室"
+link = "/lab/"
 
 [[params.socials]]
 name = "留言"
