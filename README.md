@@ -2,7 +2,7 @@
 
 简约主题。
 
-预览: https://zishu.me
+预览：https://zishu.me
 
 配置文件在 `config.toml`。
 
